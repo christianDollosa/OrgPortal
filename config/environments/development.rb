@@ -38,4 +38,8 @@ OrgPortal::Application.configure do
   #Added config for Devise
   #Add Default URL in environment file
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  #Deploying app in Heroku for Devise
+  config.assets.initialize_on_precompile = false
+
 end
