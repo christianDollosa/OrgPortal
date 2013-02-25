@@ -1,12 +1,12 @@
 /*Devise Sign in*/
 .devise{
-  width: 100%;
+  width: 70%;
   margin-top: 40px;
   margin-left: 23%;
 }
 
 .devise_form{
-  width: 50%;
+  width: 70%;
   padding: 10px;
   background-color: white;
 }
@@ -20,6 +20,7 @@
 
 .devise_image{
   width: 60%;
+  padding-left: 10%;
   height: 200px;
 }
 /*Devise Sign Up*/
