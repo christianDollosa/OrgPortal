@@ -1,0 +1,22 @@
+.row
+  .twelve.columns
+    %nav.top-bar
+      %ul
+        / Title Area
+        %li.name
+          %h1
+            %a{:href => "#"}
+              Top Bar Title
+        %li.toggle-topbar
+          %a{:href => "#"}
+      %section
+        / Left Nav Section
+        %ul.left
+          %li.divider
+          %li
+            %label Section Name
+          %li.divider.hide-for-small
+        / Right Nav Section
+        %ul.right
+          %li.divider.show-for-medium-and-up
+          %a{:href => "#"} Item 2
