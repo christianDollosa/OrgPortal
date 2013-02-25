@@ -244,3 +244,24 @@
 // http://www.modularscale.com by Tim Brown
 // https://github.com/scottkellum/modular-scale by scottkellum
 @import 'foundation';
+/*body editing*/
+body{
+  //background-image: url(/assets/white_tile.jpg);
+  background-color: #F0EDED;
+  background-repeat: repeat;
+  width: 100%;
+  height: auto;
+}
+
+/*navigation header indention*/
+nav.top-bar{
+  padding-left: 10%;
+  padding-right: 20%;
+}
+
+/*div layers for each view*/
+.container{
+  width: 960px;
+  margin-left: 13%;
+  margin-right: 13%;
+}

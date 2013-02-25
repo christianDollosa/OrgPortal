@@ -1,0 +1,60 @@
+.container
+  .devise.new
+    .devise_form.new.header
+      %font{family: "Arial", color: "white"}
+        %center
+          Sign Up
+    .devise_form.new
+      = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
+        %h4.subheader
+          Profile Information
+        .row
+          .five.columns
+            = f.label :email
+            = f.email_field :email, :autofocus => true
+        .row
+          .six.columns
+            = f.label :password
+            = f.password_field :password
+        .row
+          .six.columns
+            = f.label :password_confirmation
+            = f.password_field :password_confirmation
+
+        %h4.subheader
+          Personal Information
+        .row
+          .four.columns
+            = f.label :last_name
+            = f.text_field :last_name 
+          .six.columns
+            = f.label :first_name
+            = f.text_field :first_name
+          .two.columns
+        .row
+          .nine.columns
+            = f.label :address
+            = f.text_field :address        
+        .row
+          .five.columns
+            = f.label :birthday
+            = f.text_field :birthday
+        .row
+          .five.columns
+            = f.label :contact_number
+            = f.text_field :contact_number
+        .row
+          .five.columns
+            = f.label :organization
+            = f.text_field :organization
+          .four.columns
+            = f.label :position
+            = f.text_field :position
+          .three.columns
+        .row
+          .eight.columns
+            = f.label :description
+            = f.text_area :description 
+        .row 
+          .five.columns
+            = f.submit "Sign up", :class => "success button"

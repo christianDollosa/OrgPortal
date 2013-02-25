@@ -1,0 +1,28 @@
+.container
+  .devise
+    .devise_image
+      = image_tag "org_portal.png", width: 500;
+    .devise_form.header
+      %font{family:"Arial", color: "white"}
+        %center
+          Sign In
+    .devise_form
+      = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+        %br/
+        %div
+          = f.label :email
+          = f.email_field :email, :autofocus => true
+        %div
+          = f.label :password
+          = f.password_field :password
+        - if devise_mapping.rememberable?
+          %div
+            = f.check_box :remember_me 
+            Remember me
+          %br/
+        %div
+          = f.submit "Sign in", :class => "success button"
+        %br/
+        %div
+          %p
+            OrgPortal is just a beta Web Application. Access to this website is only limited to chosen organizations.
