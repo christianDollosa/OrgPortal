@@ -1,6 +1,6 @@
 OrgPortal::Application.routes.draw do
   devise_for :users do
-    root :to => 'devise/sessions#new'
+    root :to => 'static_pages#home'
   end
 
   resources :users
