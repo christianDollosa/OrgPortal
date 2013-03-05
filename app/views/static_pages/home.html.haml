@@ -1,56 +1,81 @@
 .home_landing_top
   .home_logo
-    =#image_tag "access.png", width: 500, height: 100
-.home_landing_middle_a
-  .home_box
-    .home_subbox
-      .home_img
-        =image_tag "heart.png", width: 80, height: 80
-      .home_boxtitle
-        Hello World
-      .text_font
-        Hello asldh aljshdkajsdh alsdhljasd asldhaskjdg ajsdakjsgd asgdasjgdka aasdhas ashda ajsdhjashd s
-    
-    .home_subbox
-      .home_img
-        =image_tag "chat.png", width: 80, height: 80
-      .home_boxtitle
-        Hello World
-      .text_font
-        Hello asldh aljshdkajsdh alsdhljasd asldhaskjdg ajsdakjsgd asgdasjgdka aasdhas ashda ajsdhjashd s
-    
-    .home_subbox
-      .home_img
-        =image_tag "mail.png", width: 80, height: 80
-      .home_boxtitle
-        Hello World
-      .text_font
-        Hello asldh aljshdkajsdh alsdhljasd asldhaskjdg ajsdakjsgd asgdasjgdka aasdhas ashda ajsdhjashd s
-        %br
-        %br
-        =link_to "Sign Up Now!", "#", :class => "success button"
 
-.home_landing_middle_b
-  .home_activity_header
-    %center
-      Activities of the Month
-  .home_box_poster
-    .home_poster
-      =image_tag "poster1.jpg", width: 230, height: 310
-      .home_poster_description
-        ldAD ASdh jhsdasdf asdkjfhasdj sadjfh asdkjfh sdfjh asdjfh akjsd ajshdaksj
-        lashd alshdal ashdas asdha lash dl sad aslhd lashd lashd lashd
-    .home_poster
-      =image_tag "poster2.jpg", width: 230, height: 310
-      .home_poster_description
-        ldAD ASdh jhsdasdf asdkjfhasdj sadjfh asdkjfh sdfjh asdjfh akjsd ajshdaksj
-        lashd alshdal ashdas asdha lash dl sad aslhd lashd lashd lashd
-    .home_poster
-      =image_tag "poster3.jpg", width: 230, height: 310
-      .home_poster_description
-        ldAD ASdh jhsdasdf asdkjfhasdj sadjfh asdkjfh sdfjh asdjfh akjsd ajshdaksj
-        lashd alshdal ashdas asdha lash dl sad aslhd lashd lashd lashd
+/Vertical Space
+.v3
+.row.home_landing_bottom
+  .row
+    .large-12.columns
+      .row
+        / Shows
+        .large-4.small-6.columns
+          .home_activity_header
+            Upcoming Activities
+          %hr
+            .row
+              .large-1.column
+                %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+              .large-9.columns
+                %h5
+                  %a{:href => "#"} Activity Name
+              .large-9.columns
+          %hr
+            .hide-for-small
+              .row
+                .large-1.column
+                  %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+                .large-9.columns
+                  %h5
+                    %a{:href => "#"} Activity Name
+                .large-9.columns
+          %hr
+            .row
+              .large-1.column
+                %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+              .large-9.columns
+                %h5
+                  %a{:href => "#"} Activity Name
+              .large-9.columns
+          %hr
+            .row
+              .large-1.column
+                %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+              .large-9.columns
+                %h5
+                  %a{:href => "#"} Activity Name
+              .large-9.columns
+        / End Shows
 
+        / Image
+        .large-4.small-6.columns
+          =image_tag "poster3.jpg", :width => 300, :height => 465
+          /%img{:src => "http://placehold.it/300x465&amp;text=Image"}
+        / End Image
+        
+        / Feed
+        .large-4.small-12.columns
+          .home_activity_header
+            Announcements
+          %hr
+            .panel
+              %h5
+                %a{:href => "#"} Post Title 1
+              %h6.subheader
+                Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
+              %h6
+                %a{:href => "#"} Read More »
+            .panel.hide-for-small
+              %h5
+                %a{:href => "#"} Post Title 2 »
+            .panel.hide-for-small
+              %h5
+                %a{:href => "#"} Post Title 3 »
+            %a.right{:href => "#"} See more »
+        / End Feed
+  / End Content
+
+/Vertical Distance
+.v3
 %a.scrollup{:href => "#"}
 :javascript
   $(window).scroll(function(){

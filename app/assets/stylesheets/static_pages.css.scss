@@ -1,6 +1,16 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//vertical spacing
+.v1{
+  margin-top: 40px;
+}
+.v2{
+  margin-top: 80px;
+}
+.v3{
+  margin-top: 120px;
+}
 
 //home page layers
 .home_landing_top{
@@ -9,25 +19,12 @@
   background-size: 100% 620px;
   width: 100%;
   height: 320px;
+  box-shadow: 0px 0px 9px 5px #888888;
 }
-.home_landing_middle_a{
-  //background-color: #CBCBCB;
-  background-color: #e7e9eb;
-  //background-image: url(/assets/hatch.jpg);
-  //background-repeat: repeat;
-  background-size: 1300px 620px;
-  width: 100%;
-  height: 230px;
-  box-shadow: 0px 0px 8px 2px #888888;
-}
-.home_landing_middle_b{
-  background-color: #E4E4E4;
-  //background-image: url(/assets/hatch.jpg);
-  background-repeat: repeat;
-  background-size: 1300px 620px;
-  width: 100%;
-  height: 730px;
-  box-shadow: 0px 0px 8px 2px #888888;
+
+.row.home_landing_bottom{
+  //background-color: #e7e9eb;
+  background-color: rgb(247, 247, 247);
 }
 .home_logo{
   width: 500px;
@@ -53,59 +50,7 @@
   //background: blue;
 }
 
-.home_box_poster{
-  position: absolute;
-  margin-left: 190px;
-  padding-left: 50px;
-  margin-top: 100px;
-  width: 960px;
-  height: 490px;
-  //background: blue;
-}
-
-.home_poster{
-  width: 290px;
-  height: 470px;
-  padding: 20px;
-  float:left;
-  //background: black;
-}
-
-.home_poster_description{
-  margin-top: 18px;
-  font-family: Cabin;
-  font-size: 15px;
-  color: #7D7B7B;
-}
-.home_subbox{
-  width: 320px;
-  height: 220px;
-  border-radius: 10px;
-  float:left;
-  padding: 20px;
-  font-family: Helvetica;
-  font-size: 15px;
-  //border: 1px solid black;
-  //background: black;
-}
-.home_img{
-  height: 80px;
-  width: 80px;
-  position: absolute;
-  //background: white;
-}
-.home_boxtitle{
-  position: absolute;
-  width: 150px;
-  height: 30px;
-  margin-left: 90px;
-  margin-top: 20px;
-  font-size: 20px;
-  font-style: bold;
-  color: #003000;
-  //background: pink;
-}
-.text_font{
+.home_text_style{
   margin-top: 90px;
   font-family: Helvetica;
   font-size: 15px;
@@ -116,9 +61,10 @@
 .home_activity_header{
   height: 50px;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 10px;
   font-family: Lobster;
-  font-size: 40px;
+  font-size: 30px;
   color: #B7B5B5;
 }
+
 

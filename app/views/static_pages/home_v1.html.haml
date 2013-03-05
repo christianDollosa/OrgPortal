@@ -1,0 +1,69 @@
+.home_landing_top
+  .home_logo
+    =#image_tag "access.png", width: 500, height: 100
+.home_landing_middle_a
+  .home_box
+    .home_subbox
+      .home_img
+        =image_tag "heart.png", width: 80, height: 80
+      .home_boxtitle
+        Hello World
+      .text_font
+        Hello asldh aljshdkajsdh alsdhljasd asldhaskjdg ajsdakjsgd asgdasjgdka aasdhas ashda ajsdhjashd s
+    
+    .home_subbox
+      .home_img
+        =image_tag "chat.png", width: 80, height: 80
+      .home_boxtitle
+        Hello World
+      .text_font
+        Hello asldh aljshdkajsdh alsdhljasd asldhaskjdg ajsdakjsgd asgdasjgdka aasdhas ashda ajsdhjashd s
+    
+    .home_subbox
+      .home_img
+        =image_tag "mail.png", width: 80, height: 80
+      .home_boxtitle
+        Hello World
+      .text_font
+        Hello asldh aljshdkajsdh alsdhljasd asldhaskjdg ajsdakjsgd asgdasjgdka aasdhas ashda ajsdhjashd s
+        %br
+        %br
+        =link_to "Sign Up Now!", "#", :class => "success button"
+
+.home_landing_middle_b
+  .home_activity_header
+    %center
+      Activities of the Month
+  .home_box_poster
+    .home_poster
+      =image_tag "poster1.jpg", width: 230, height: 310
+      .home_poster_description
+        ldAD ASdh jhsdasdf asdkjfhasdj sadjfh asdkjfh sdfjh asdjfh akjsd ajshdaksj
+        lashd alshdal ashdas asdha lash dl sad aslhd lashd lashd lashd
+    .home_poster
+      =image_tag "poster2.jpg", width: 230, height: 310
+      .home_poster_description
+        ldAD ASdh jhsdasdf asdkjfhasdj sadjfh asdkjfh sdfjh asdjfh akjsd ajshdaksj
+        lashd alshdal ashdas asdha lash dl sad aslhd lashd lashd lashd
+    .home_poster
+      =image_tag "poster3.jpg", width: 230, height: 310
+      .home_poster_description
+        ldAD ASdh jhsdasdf asdkjfhasdj sadjfh asdkjfh sdfjh asdjfh akjsd ajshdaksj
+        lashd alshdal ashdas asdha lash dl sad aslhd lashd lashd lashd
+
+%a.scrollup{:href => "#"}
+:javascript
+  $(window).scroll(function(){
+    if ($(this).scrollTop() >100){
+      $('.scrollup').fadeIn();
+    }
+    else{
+    $('.scrollup').fadeOut();
+    }
+  });
+
+  $('.scrollup').click(function(){
+    $("html, body").animate({scrollTop: 0}, 600);
+    return false;
+  });
+

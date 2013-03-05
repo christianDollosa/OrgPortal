@@ -249,6 +249,8 @@ body{
   //background-image: url(/assets/white_tile.jpg);
   width: 100%;
   height: auto;
+  //background-color: #e7e9eb;
+  background-color: rgb(247, 247, 247);
 }
 
 /*navigation header indention*/
@@ -278,4 +280,14 @@ nav.top-bar{
   font-family: Helvetica;
   font-size: 15px;
   color: #B2B2B2;
+}
+
+.large-4.small-6.columns{
+  width: 333px;
+  height: 500px;
+}
+
+.large-4.small-12.columns{
+  width: 333px;
+  height: 500px;
 }
