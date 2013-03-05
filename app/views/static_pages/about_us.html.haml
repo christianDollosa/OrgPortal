@@ -1,0 +1,89 @@
+.home_landing_top
+  .home_logo
+    
+/Vertical Space
+.v1
+
+/About Us Column
+.row.about_us
+  .large-8.columns.about_us
+    .about_us_header
+      About Us
+    %hr
+    %p Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.
+    %p Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.
+    %p Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.
+    .about_us_header
+      Our Mission
+    %hr
+    %p Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.
+    %p Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.
+    %p Bacon ipsum dolor sit amet  %p Bacon ipsum dolor sit amet 
+    .about_us_header
+      Our Vision
+    %hr
+    %p Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.
+    %p Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.
+
+  /Executive Board pic column
+  .large-4.columns.about_us
+    .about_us_header
+      The Executive Board A.Y 2013
+    %br 
+    / Gallery sidebar with a block grid. Note: block grid items should be the same size for optimal results
+    %ul.small-block-grid-3
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+      %li
+        %a{:href => "#"}
+          %img{:src => "http://placehold.it/120x120"}/
+
+/Vertical Distance
+.v3
+%a.scrollup{:href => "#"}
+:javascript
+  $(window).scroll(function(){
+    if ($(this).scrollTop() >100){
+      $('.scrollup').fadeIn();
+    }
+    else{
+    $('.scrollup').fadeOut();
+    }
+  });
+
+  $('.scrollup').click(function(){
+    $("html, body").animate({scrollTop: 0}, 600);
+    return false;
+  });
+

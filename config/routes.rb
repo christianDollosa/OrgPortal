@@ -5,7 +5,7 @@ OrgPortal::Application.routes.draw do
 
   resources :users
   match 'home' => 'static_pages#home'
-  match 'profile' => 'static_pages#profile'
+  match 'about_us' => 'static_pages#about_us'
   match 'contact' => 'static_pages#contact'
   #match ':action' => 'static#:action'
   # The priority is based upon order of creation:

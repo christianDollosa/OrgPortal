@@ -44,8 +44,8 @@
 
 .home_box{
   position: absolute;
-  margin-left: 190px;
   width: 960px;
+  margin-left: 190px;
   height: 230px;
   //background: blue;
 }
@@ -67,4 +67,16 @@
   color: #B7B5B5;
 }
 
+//about us
+.about_us_header{
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  font-family: Lobster;
+  font-size: 30px;
+  color: #B7B5B5;
+}
 
+.row.about_us{
+  height: 1200px;
+}
