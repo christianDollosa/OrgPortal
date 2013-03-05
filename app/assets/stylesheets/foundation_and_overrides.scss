@@ -255,13 +255,16 @@ body{
 
 /*navigation header indention*/
 nav.top-bar{
-  padding-top: 10px;
   padding-left: 20%;
   padding-right: 20%;
 }
 .top-bar{
-  min-height: 70px;
+  min-height: 50px;
   margin: 0 0 0 0;
+}
+
+.top-bar ul > li a:not(.button) {
+  height: 50px;
 }
 /*div layers for each view*/
 .container{
@@ -278,7 +281,7 @@ nav.top-bar{
 .layout_footer_text{
   padding-top: 15px;
   font-family: Helvetica;
-  font-size: 15px;
+  font-size: 10px;
   color: #B2B2B2;
 }
 
