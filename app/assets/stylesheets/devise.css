@@ -1,23 +1,4 @@
 /*Devise Sign in*/
-.devise{
-  width: 70%;
-  margin-top: 40px;
-  margin-left: 23%;
-}
-
-.devise_form{
-  width: 70%;
-  padding: 10px;
-  background-color: white;
-}
-
-.devise_form.header{
-  background-color: #236712;
-  height: 40px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
 .devise_image{
   width: 60%;
   padding-left: 10%;
@@ -42,6 +23,26 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+
+.row.devise{
+  height: 600px;
+  padding: 10px;
+}
+.devise_form{
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+.devise_header{
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  font-family: Lobster;
+  font-size: 30px;
+  color: black;
+}
+
 
 textarea{
   height: 70px;
