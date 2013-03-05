@@ -1,0 +1,94 @@
+.home_landing_top
+  .home_logo
+
+/Vertical Space
+.v3
+.row.home_landing_bottom
+  .row
+    .large-12.columns
+      .row
+        / Shows
+        .large-4.small-6.columns
+          .home_activity_header
+            Upcoming Activities
+          %hr
+            .row
+              .large-1.column
+                %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+              .large-9.columns
+                %h5
+                  %a{:href => "#"} Activity Name
+              .large-9.columns
+          %hr
+            .hide-for-small
+              .row
+                .large-1.column
+                  %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+                .large-9.columns
+                  %h5
+                    %a{:href => "#"} Activity Name
+                .large-9.columns
+          %hr
+            .row
+              .large-1.column
+                %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+              .large-9.columns
+                %h5
+                  %a{:href => "#"} Activity Name
+              .large-9.columns
+          %hr
+            .row
+              .large-1.column
+                %img{:src => "http://placehold.it/50x50&amp;text=[img]"}
+              .large-9.columns
+                %h5
+                  %a{:href => "#"} Activity Name
+              .large-9.columns
+        / End Shows
+        / Image
+
+        .large-4.small-6.columns
+          =image_tag "poster3.jpg", :width => 300, :height => 465
+          /%img{:src => "http://placehold.it/300x465&amp;text=Image"}
+        / End Image
+        
+        / Feed
+        .large-4.small-12.columns
+          .home_activity_header
+            Announcements
+          %hr
+            .panel
+              %h5
+                %a{:href => "#"} Post Title 1
+              %h6.subheader
+                Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
+              %h6
+                %a{:href => "#"} Read More »
+            .panel.hide-for-small
+              %h5
+                %a{:href => "#"} Post Title 2 »
+            .panel.hide-for-small
+              %h5
+                %a{:href => "#"} Post Title 3 »
+            %a.right{:href => "#"} See more »
+        / End Feed
+  / End Content
+
+/Vertical Distance
+.v3
+%a.scrollup{:href => "#"}
+:javascript
+  $(window).scroll(function(){
+    if ($(this).scrollTop() >100){
+      $('.scrollup').fadeIn();
+    }
+    else{
+    $('.scrollup').fadeOut();
+    }
+  });
+
+  $('.scrollup').click(function(){
+    $("html, body").animate({scrollTop: 0}, 600);
+    return false;
+  });
+

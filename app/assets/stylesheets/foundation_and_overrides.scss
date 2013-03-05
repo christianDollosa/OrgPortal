@@ -247,10 +247,10 @@
 /*body editing*/
 body{
   //background-image: url(/assets/white_tile.jpg);
-  background-color: #F0EDED;
-  background-repeat: repeat;
   width: 100%;
   height: auto;
+  //background-color: #e7e9eb;
+  background-color: rgb(247, 247, 247);
 }
 
 /*navigation header indention*/
@@ -259,13 +259,70 @@ nav.top-bar{
   padding-right: 20%;
 }
 .top-bar{
-  min-height: 55px;
+  min-height: 50px;
   margin: 0 0 0 0;
 }
 
+.top-bar ul > li a:not(.button) {
+  height: 50px;
+}
 /*div layers for each view*/
 .container{
   width: 960px;
   margin-left: 13%;
   margin-right: 13%;
+}
+.layout_footer{
+  width: 100%;
+  height: 50px;
+  background: black;
+}
+
+.layout_footer_text{
+  padding-top: 15px;
+  font-family: Helvetica;
+  font-size: 10px;
+  color: #B2B2B2;
+}
+
+.large-4.small-6.columns{
+  width: 333px;
+  height: 500px;
+}
+
+.large-4.small-12.columns{
+  width: 333px;
+  height: 500px;
+}
+
+//about us page
+.large-8.columns.about_us{
+  width: 60%;
+  height: 354px;
+}
+
+.large-4.columns.about_us{
+  width: 40%;
+  height: 196px;
+  float: right;
+}
+
+.small-block-grid-3:nth-of-type(3n+1) {
+  clear: both;
+}
+
+.small-block-grid-3 > li {
+  width: 33.33%;
+  padding: 0 10px 10px;
+}
+
+img {
+  display: block;
+}
+
+[class*="block-grid-"] > li {
+  display: block;
+  height: auto;
+  float: left;
+  padding: 0 10px 10px;
 }

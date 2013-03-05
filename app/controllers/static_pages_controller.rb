@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
 
   end
 
-  def profile
+  def about_us
 
   end
   

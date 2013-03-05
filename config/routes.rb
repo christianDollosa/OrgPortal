@@ -1,11 +1,11 @@
 OrgPortal::Application.routes.draw do
   devise_for :users do
-    root :to => 'devise/sessions#new'
+    root :to => 'static_pages#home'
   end
 
   resources :users
   match 'home' => 'static_pages#home'
-  match 'profile' => 'static_pages#profile'
+  match 'about_us' => 'static_pages#about_us'
   match 'contact' => 'static_pages#contact'
   #match ':action' => 'static#:action'
   # The priority is based upon order of creation:

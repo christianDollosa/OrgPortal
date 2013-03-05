@@ -3,8 +3,16 @@
     / Title Area
     %li.name
       %h1
-        =link_to "OrgPortal", root_url
+        =#image_tag "access.png", width: 150, height: 80
+        =link_to "ACCESS", root_url
     / Right Nav Section
     %ul.right
       %li.divider.show-for-small
-        %li
+        %li 
+          = link_to "Home", root_path 
+        %li 
+          = link_to "About Us", about_us_path
+        %li 
+          = link_to "Contact", "#"
+        %li 
+          = link_to "Sign in", "#"
