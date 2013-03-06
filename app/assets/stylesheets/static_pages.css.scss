@@ -63,12 +63,14 @@
 
 .home_fractal{
   width: 100%;
-  height: 700px;
+  height: 200px;
   position: absolute;
-  background-image: url(/assets/fractal.png);
-  background-size: 100% 700px;
-  opacity: 0.7;
+  margin-top: 420px;
+  background-image: url(/assets/fractal2.png);
+  background-size: 100% 200px;
+  opacity: 0.8;
 }
+
 .home_join{
   width: 40%;
   height: 100px;
