@@ -12,73 +12,61 @@
   margin-top: 120px;
 }
 
+//Custom Button
+.button_signup{
+  width: 38%;
+  height: 40px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 500px;
+  border: 3px inset rgb(89, 105, 85);
+  border-radius: 20px;
+  opacity: 0.6;
+  background: white;
+  padding: 5px 14%;
+  font-family: Strait;
+  font-size: 20px;
+  color: black;
+}
+
+.button_signup:hover{
+  background: rgb(26, 26, 26);
+  opacity:0.8;
+  color: white;
+}
+
 //home page layers
 .home_landing_top{
-  //background-color: white;
-  background-image: url(/assets/bg2.jpg);
-  background-size: 100% 620px;
+  background-image: url(/assets/tile.jpg);
+  //background-size: 100% 620px;
+  background-repeat: repeat;
   width: 100%;
-  height: 320px;
+  height: 640px;
   box-shadow: 0px 0px 9px 5px #888888;
 }
 
 .row.home_landing_bottom{
-  //background-color: #e7e9eb;
   background-color: rgb(247, 247, 247);
 }
 .home_logo{
-  width: 500px;
+  width: 40%;
   height: 200px;
   position: absolute;
-  margin-left: 340px;
-  margin-top: 40px;
+  margin-left: 27%;
+  margin-top: 150px;
+  background-image: url(/assets/access.png);
+  background-size: 100% 200px;
 }
-.home_signup{
-  width: 500px;
-  height: 200px;
+.home_join{
+  width: 40%;
+  height: 100px;
   position: absolute;
-  margin-left: 150px;
-  margin-top: 300px;
-  background-color: black;
-}
-
-.home_box{
-  position: absolute;
-  width: 960px;
-  margin-left: 190px;
-  height: 230px;
-  //background: blue;
-}
-
-.home_text_style{
-  margin-top: 90px;
-  font-family: Helvetica;
-  font-size: 15px;
-  font-style: italic;
-  color: #181818;
-}
-
-.home_activity_header{
-  height: 50px;
-  width: 100%;
-  padding-top: 10px;
-  font-family: Lobster;
-  font-size: 30px;
-  //color: #B7B5B5;
-  color: black;
+  margin-left: 30%;
+  margin-top: 430px;
+  //background-color: gray;
 }
 
 //about us
-.about_us_header{
-  height: 50px;
-  width: 100%;
-  padding-top: 10px;
-  font-family: Lobster;
-  font-size: 30px;
-  //color: #B7B5B5;
-  color:  black;
-}
-
 .row.about_us{
   height: 1200px;
 }

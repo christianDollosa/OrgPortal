@@ -38,3 +38,22 @@
   background: black;
 }
 
+.font_header{
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  font-family: Sintony;
+  font-size: 25px;
+  //color: #B7B5B5;
+  //color: black;
+  color: rgb(58, 73, 61);
+}
+
+.font_header_logo{
+  height: 50px;
+  width: 100%;
+  font-family: Playball;
+  font-size: 25px;
+  color: rgb(207, 202, 202);
+}
+
