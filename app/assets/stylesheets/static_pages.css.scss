@@ -60,6 +60,15 @@
   background-image: url(/assets/access.png);
   background-size: 100% 200px;
 }
+
+.home_fractal{
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  background-image: url(/assets/fractal.png);
+  background-size: 100% 700px;
+  opacity: 0.7;
+}
 .home_join{
   width: 40%;
   height: 100px;
