@@ -31,21 +31,25 @@
 .layout_footer{
   left: 0px;
   bottom: 0px;
-  z-index: 999;
-  margin-bottom: -60px;
+  z-index: 99;
+  margin-bottom: -18px;
   width: 100%;
-  height: 50px;
+  height: 40px;
   background: black;
 }
 
+.layout_header{
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 2;
+}
 .font_header{
   height: 50px;
   width: 100%;
   padding-top: 10px;
   font-family: Sintony;
   font-size: 25px;
-  //color: #B7B5B5;
-  //color: black;
   color: rgb(58, 73, 61);
 }
 
