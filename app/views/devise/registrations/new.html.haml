@@ -1,12 +1,14 @@
-.container
-  .devise.new
-    .devise_form.new.header
-      %font{family: "Arial", color: "white"}
-        %center
-          Sign Up
+.devise_background
+  .v1
+
+  .row.devise
+    .font_header.devise
+      %center
+        Sign Up
     .devise_form.new
+      %hr
       = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
-        %h4.subheader
+        .font_subheader.devise
           Profile Information
         .row
           .five.columns
@@ -21,7 +23,7 @@
             = f.label :password_confirmation
             = f.password_field :password_confirmation
 
-        %h4.subheader
+        .font_subheader.devise
           Personal Information
         .row
           .four.columns
@@ -55,6 +57,5 @@
           .eight.columns
             = f.label :description
             = f.text_area :description 
-        .row 
-          .five.columns
-            = f.submit "Sign up", :class => "success button"
+        .row
+          = f.submit "Sign up", :class => "devise_signup"

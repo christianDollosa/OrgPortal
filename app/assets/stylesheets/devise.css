@@ -1,10 +1,69 @@
-/*Devise Sign in*/
-.devise_image{
-  width: 60%;
-  padding-left: 10%;
-  height: 200px;
+/*font header overlap*/
+.font_header.devise{
+  color: white;
 }
+.font_subheader.devise{
+  font-family: Strait;
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: rgb(192, 184, 184);
+}
+/*button*/
+.devise_signin{
+  width: 38%;
+  height: 40px;
+  position: absolute;
+  border: 3px inset rgb(89, 105, 85);
+  border-radius: 20px;
+  opacity: 0.6;
+  background: white;
+  padding: 5px 14%;
+  font-family: Strait;
+  font-size: 20px;
+  color: black;
+}
+.devise_signin:hover{
+  background: rgb(26, 26, 26);
+  opacity:0.8;
+  color: white;
+}
+.devise_signup{
+  width: 38%;
+  height: 40px;
+  position: absolute;
+  border: 3px inset rgb(89, 105, 85);
+  border-radius: 20px;
+  opacity: 0.6;
+  background: white;
+  padding: 5px 0%;
+  font-family: Strait;
+  font-size: 20px;
+  color: black;
+}
+.devise_signup:hover{
+  background: rgb(26, 26, 26);
+  opacity:0.8;
+  color: white;
+}
+
+.devise_form{
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+
+/*Devise Sign in*/
+.devise_background{
+  background-image: url(/assets/tile.jpg);
+  background-repeat: repeat;
+  width: 100%;
+  height: 700px;
+}
+
 /*Devise Sign Up*/
+.devise_background{
+  height: 1000px;
+}
 .devise.new{
   width: 100%;
   margin-top: 70px;
@@ -13,26 +72,13 @@
 .devise_form.new{
   width: 70%;
   height: 800px;
-  padding: 10px; 
-  background-color: white;
+  padding: 10px;
+  margin-left: 15%;
 }
-
-.devise_form.new.header{
-  background-color: #236712;
-  height: 40px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
 
 .row.devise{
   height: 600px;
   padding: 10px;
-}
-.devise_form{
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
 }
 .devise_header{
   height: 50px;
@@ -42,7 +88,6 @@
   font-size: 30px;
   color: black;
 }
-
 
 textarea{
   height: 70px;
