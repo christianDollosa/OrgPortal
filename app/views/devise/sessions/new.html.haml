@@ -1,12 +1,13 @@
-.container
-  .devise
-    .devise_image
-      = image_tag "org_portal.png", width: 500;
-    .devise_form.header
-      %font{family:"Arial", color: "white"}
-        %center
-          Sign In
+.devise_background
+  /Vertical Distance
+  .v1
+
+  .row.devise
+    .font_header.devise
+      %center
+        Sign In
     .devise_form
+      %hr
       = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
         %br/
         %div
@@ -21,8 +22,5 @@
             Remember me
           %br/
         %div
-          = f.submit "Sign in", :class => "success button"
+          = f.submit "Sign in", :class => "devise_signin"
         %br/
-        %div
-          %p
-            OrgPortal is undergoing beta testing. Access to this website is only limited to chosen organizations.

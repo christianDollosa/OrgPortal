@@ -3,80 +3,108 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //vertical spacing
 .v1{
-  margin-top: 40px;
+  height: 70px;
+  width: 100%;
 }
 .v2{
-  margin-top: 80px;
+  height: 110px;
+  width: 100%;
 }
 .v3{
-  margin-top: 120px;
+  height: 150px;
+  width: 100%;
+}
+
+//Custom Button
+.button_signup{
+  width: 38%;
+  height: 40px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 500px;
+  border: 3px inset rgb(89, 105, 85);
+  border-radius: 20px;
+  opacity: 0.6;
+  background: white;
+  padding: 5px 14%;
+  font-family: Strait;
+  font-size: 20px;
+  color: black;
+}
+
+.button_signup:hover{
+  background: rgb(26, 26, 26);
+  opacity:0.8;
+  color: white;
 }
 
 //home page layers
 .home_landing_top{
-  //background-color: white;
-  background-image: url(/assets/bg2.jpg);
-  background-size: 100% 620px;
+  background-image: url(/assets/tile.jpg);
+  //background-size: 100% 620px;
+  background-repeat: repeat;
   width: 100%;
-  height: 320px;
+  height: 700px;
   box-shadow: 0px 0px 9px 5px #888888;
 }
 
 .row.home_landing_bottom{
-  //background-color: #e7e9eb;
   background-color: rgb(247, 247, 247);
 }
 .home_logo{
-  width: 500px;
+  width: 40%;
   height: 200px;
   position: absolute;
-  margin-left: 340px;
-  margin-top: 40px;
-}
-.home_signup{
-  width: 500px;
-  height: 200px;
-  position: absolute;
-  margin-left: 150px;
-  margin-top: 300px;
-  background-color: black;
+  margin-left: 27%;
+  margin-top: 150px;
+  background-image: url(/assets/access.png);
+  background-size: 100% 200px;
 }
 
-.home_box{
-  position: absolute;
-  width: 960px;
-  margin-left: 190px;
-  height: 230px;
-  //background: blue;
-}
-
-.home_text_style{
-  margin-top: 90px;
-  font-family: Helvetica;
-  font-size: 15px;
-  font-style: italic;
-  color: #181818;
-}
-
-.home_activity_header{
-  height: 50px;
+.home_fractal{
   width: 100%;
-  padding-top: 10px;
-  font-family: Lobster;
-  font-size: 30px;
-  color: #B7B5B5;
+  height: 200px;
+  position: absolute;
+  margin-top: 420px;
+  background-image: url(/assets/fractal2.png);
+  background-size: 100% 200px;
+  opacity: 0.8;
+}
+
+.home_join{
+  width: 40%;
+  height: 100px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 430px;
+  //background-color: gray;
 }
 
 //about us
-.about_us_header{
-  height: 50px;
-  width: 100%;
-  padding-top: 10px;
-  font-family: Lobster;
-  font-size: 30px;
-  color: #B7B5B5;
-}
-
 .row.about_us{
   height: 1200px;
+}
+
+//contact
+.row.contact_div{
+  height: 600px;
+  padding: 10px;
+  //background: black;
+}
+
+.contact_us{
+  width: 40%;
+  height: 400px;
+  position: absolute;
+  //background: white;
+}
+.contact_img{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 45%;
+  width: 30%;
+  height: 300px;
+  background-image: url('/assets/contact.png');
+  background-size: 100% 300px;
+  //background: pink;
 }
