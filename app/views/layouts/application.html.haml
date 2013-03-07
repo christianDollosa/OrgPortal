@@ -13,13 +13,10 @@
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     %title= content_for?(:title) ? yield(:title) : "Untitled"
-    %link{:href => "http://fonts.googleapis.com/css?family=Lobster", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Sintony", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "http://fonts.googleapis.com/css?family=Crushed", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Gudea", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Playball", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Strait", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "http://fonts.googleapis.com/css?family=Oxygen", :rel => "stylesheet", :type => "text/css"}/
 
     / Included CSS Files
     = stylesheet_link_tag    "application"

@@ -14,7 +14,7 @@
   height: 40px;
   position: absolute;
   border: 3px inset rgb(89, 105, 85);
-  border-radius: 20px;
+  border-radius: 15px;
   opacity: 0.6;
   background: white;
   padding: 5px 14%;
@@ -37,7 +37,7 @@
   background: white;
   padding: 5px 0%;
   font-family: Strait;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 .devise_signup:hover{
